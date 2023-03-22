@@ -1,53 +1,53 @@
-# Code Refactor Starter Code
+# 📖 CSS Style Guide
+This is a CSS style guide that documents the styles used in a web page. The styles are organized based on the sections of the web page.
 
-A README file is a document that provides information about a project, including instructions on how to use it, the purpose of the project, and any other relevant details. Here are some tips on how to write a README file for an HTML and CSS document:
+## General Styles
+These styles apply to all elements in the web page:
 
-Include a brief description of the project: Start your README file with a short paragraph that describes the purpose of your project. Explain what the project does, who it is for, and why you created it.
+- **box-sizing:** *border-box;: includes padding and border in element's total width and height*
+- **padding:** *0;: sets the padding of all elements to zero*
+- **margin:** *0;: sets the margin of all elements to zero*
+- **a:** *sets the color of all links to white and removes underline*
 
-Installation instructions: Provide step-by-step instructions on how to install and run the project. Include any dependencies or prerequisites that need to be installed before the project can be used.
+## Header Styles
+These styles apply to the header section of the web page:
 
-Usage instructions: Explain how to use the project. If your HTML and CSS document is a website, provide the URL where it can be accessed. If it is a standalone web page, explain how to open it in a web browser.
+- **.header:** *sets the background color of the header to #2a607c and the font color to white*
+- **.header** *h1: sets the font size of the header title to 48px and displays it inline-block*
+- **.header** *h1 .seo: sets the color of the word SEO in the header title to #d9dcd6*
+- **.header** *div: styles the container for the links in the header*
+- **.header** *div ul: removes bullet points from the list of links*
+- **.header** *div ul li: displays the list items inline-block with a margin-left of 25px*
 
-Credits: If you used any third-party resources in creating your HTML and CSS document, include a list of those resources and links to their websites. Give credit where credit is due.
+## Hero Section Styles
+These styles apply to the hero section of the web page:
 
-License: If you are sharing your HTML and CSS document with others, include a license that specifies how the document can be used. There are several open-source licenses available that you can use, such as the MIT License or the Apache License.
+- .hero: sets the background image of the hero section to ../images/digital-marketing-meeting.jpg
+- .hero h2: sets the font size of text that is not a header to 16px
 
-Contact information: Include your contact information so that others can reach out to you if they have questions or feedback about your project. This can be an email address, a GitHub profile, or any other method of contact that you prefer.
+## Vertical Blocks Styles
+*These styles apply to the three vertical blocks under the main picture:*
 
-Examples and screenshots: If possible, include examples and screenshots of your HTML and CSS document in action. This will help others understand what your project does and how it can be used.
+- .benefits: styles the container of the vertical blocks, sets it to float right, and sets the background color to #2589bd
+- .benefit-lead h3, .benefit-brand h3, .benefit-cost h3: sets the font size of the headers in the vertical blocks to 10px
+- .benefit-lead img, .benefit-brand img, .benefit-cost img: sets the max-width of the images in the vertical blocks to 150px
 
-Remember to keep your README file concise and easy to read. Use headers, bullet points, and other formatting tools to make the information easy to navigate.
+## Horizontal Blocks Styles
+*These styles apply to the three horizontal blocks under the main picture:*
 
+- .search-engine-optimization, .online-reputation-management, .social-media-marketing: sets the background color of the horizontal blocks to #0072bb and the font color to white
+- .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2: sets the font size of the headers in the horizontal blocks to 36px
+- .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img: sets the max-height of the images in the horizontal blocks to 200px
 
+## Content Styles
+*These styles apply to the content section of the web page:*
 
-## User Story
-AS A marketing agency
-I WANT a codebase that follows accessibility standards
-SO THAT our own site is optimized for search engines
+- .content: styles the container of the content section and sets it to display inline-block
+- .float-left: sets the text in the left side of the content section to float left with a margin-right of 25px
+- .float-right: sets the text in the right side of the content section to float right with a margin-left of 25px
 
-### Aceptance Criteria
-GIVEN a webpage meets accessibility standards
-WHEN I view the source code
-THEN I find semantic HTML elements
-WHEN I view the structure of the HTML elements
-THEN I find that the elements follow a logical structure independent of styling and positioning
-WHEN I view the image elements
-THEN I find accessible alt attributes
-WHEN I view the heading attributes
-THEN they fall in sequential order
-WHEN I view the title element
-THEN I find a concise, descriptive title
+## Footer Styles
+*These styles apply to the footer section of the web page:*
 
-
-Since an HTML document is simply a file that can be opened in a web browser, installation instructions for an HTML document are usually quite simple. Here are some basic steps you can include in your installation instructions:
-
-Download the HTML file: Provide a link or instructions for downloading the HTML file. If the file is part of a larger project, make sure to provide instructions for downloading the entire project.
-
-Save the HTML file to your computer: Once the file is downloaded, save it to a location on your computer where you can easily find it.
-
-Open the HTML file in a web browser: Double-click the HTML file to open it in a web browser. Alternatively, you can right-click on the file and select "Open with" to choose the web browser you want to use.
-
-That's it! Once the file is open in a web browser, you should be able to view the HTML document and any associated CSS and JavaScript files that are linked to it. If there are any additional steps or dependencies required to view the HTML document, make sure to include those in your installation instructions.
-
-
-
+- .footer: styles the container of the footer section and sets it to display none to match the example photo
+- .footer h4: sets the font size of the footer title to 20px and sets it to display none to match the example photo
