@@ -9,18 +9,16 @@ a {
     text-decoration: none;
 }
 
-/*Header text for the vertical block under the main picture */
+
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/*Header text for the vertical block under the main picture */
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3  {
     margin-bottom: 10px;
     text-align: center;
 }
-
 
 .benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
@@ -28,7 +26,6 @@ a {
     max-width: 150px;
 }
 
-/*Vertical rectangle block under the main picture */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -40,19 +37,16 @@ a {
     background-color: #2589bd;
 }
 
-/*Main background color for the page.*/
 body {
     background-color: #d9dcd6;
 }
 
-/*Styling for the SEO, ORM, & SMM content under the main photo. The area where the links take you.*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/*Styling for the SEO, & SMM content under the main photo.*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -63,7 +57,6 @@ body {
     margin-left: 25px;
 }
 
-/*Hidden to match the example photo*/
 .footer {
     padding: 30px;
     clear: both;
@@ -72,18 +65,17 @@ body {
     display: none;
 }
 
-/*Hidden to match the example photo*/
 .footer h4 {
     font-size: 20px;
     display: none;
 }
 
-/*Styling for the SEO, ORM, & SMM links in the top header*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    
 }
 
 
@@ -104,18 +96,15 @@ body {
     margin-left: 25px;
 }
 
-/*Header with Brand Name*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-/*Color change for text in brand name for H1 */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
-/*Class that contains hold SEO, ORM, & SMM id's. */
 .hero {
     height: 800px;
     width: 100%;
@@ -125,12 +114,10 @@ body {
     background-position: center;
 }
 
-/*Font size of text that's not a header */
 p {
     font-size: 16px;
 }
 
-/*Horizonal blocks under the main picture */
 .search-engine-optimization, .online-reputation-management, .social-media-marketing  {
     margin-bottom: 20px;
     padding: 50px;
@@ -140,13 +127,65 @@ p {
     color: #ffffff;
 }
 
-/*Images size for the horizontal stacked blocks under the main picture */
 .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
 
-/*Horizontal stacked blocks text under the main picture */
 .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+
+
+
+/* ## General Styles
+<span style="color: grey;">These styles apply to all elements in the web page:</span>
+
+- **box-sizing:** *border-box;: includes padding and border in element's total width and height*
+- **padding:** *0;: sets the padding of all elements to zero*
+- **margin:** *0;: sets the margin of all elements to zero*
+- **a:** *sets the color of all links to white and removes underline*
+
+## Header Styles
+<span style="color: grey;">These styles apply to the header section of the web page:</span>
+
+- **.header:** *sets the background color of the header to #2a607c and the font color to white*
+- **.header h1:** *sets the font size of the header title to 48px and displays it inline-block*
+- **.header h1 .seo:** *sets the color of the word SEO in the header title to #d9dcd6*
+- **.header div:** *styles the container for the links in the header*
+- **.header div ul:** *removes bullet points from the list of links*
+- **.header div ul li:** *displays the list items inline-block with a margin-left of 25px*
+
+## Hero Section Styles
+<span style="color: grey;">These styles apply to the hero section of the web page:</span>
+
+- **.hero:** *sets the background image of the hero section to ../images/digital-marketing-meeting.jpg*
+- **.hero h2:** *sets the font size of text that is not a header to 16px*
+
+## Vertical Blocks Styles
+<span style="color: grey;">These styles apply to the three vertical blocks under the main picture:</span>
+
+- **.benefits:** *styles the container of the vertical blocks, sets it to float right, and sets the background color to #2589bd*
+- **.benefit-lead h3, .benefit-brand h3, .benefit-cost h3:** *sets the font size of the headers in the vertical blocks to 10px*
+- **.benefit-lead img, .benefit-brand img, .benefit-cost img:** *sets the max-width of the images in the vertical blocks to 150px*
+
+## Horizontal Blocks Styles
+<span style="color: grey;">These styles apply to the three horizontal blocks under the main pictre:</span>
+
+- **.search-engine-optimization, .online-reputation-management, .social-media-marketing:** *sets the background color of the horizontal blocks to #0072bb and the font color to white*
+- **.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2:** *sets the font size of the headers in the horizontal blocks to 36px*
+- **.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img:** *sets the max-height of the images in the horizontal blocks to 200px*
+
+## Content Styles
+<span style="color: grey;">These styles apply to the content section of the web page:</span>
+
+- **.content:** *styles the container of the content section and sets it to display inline-block*
+- **.float-left:** *sets the text in the left side of the content section to float left with a margin-right of 25px*
+- **.float-right:** *sets the text in the right side of the content section to float right with a margin-left of 25px*
+
+## Footer Styles
+<span style="color: grey;">These styles apply to the footer section of the web page:</span>
+
+- **.footer:** *styles the container of the footer section and sets it to display none to match the example photo*
+- **.footer h4:** *sets the font size of the footer title to 20px and sets it to display none to match the example photo* */

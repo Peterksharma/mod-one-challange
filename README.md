@@ -1,56 +1,45 @@
-# 📖 <span style="color: yellow;">CSS Style Guide to Horison Digital </span>
+<!-- Week one homework Readme -->
+# Week 1 Project - Horrison Digital (HTML, CSS, and Readme: review and edits)
+## Table of Contents
+1. [About this file](#about-this-file)
+2. [How to Install](#how-to-install)
+3. [How to use the Project](#how-to-use-the-project)
+4. [Screenshots](#screenshots)
+5. [Links](#links)
+---
 ## About This File
-- This is a CSS style guide that documents the styles used in a web page. The styles are organized based on the sections of the web page.
-- [Click to Deploy](https://github.com/Peterksharma/mod-one-challange.git)
+
+_<span style="color:grey;"><small> To edit this file you will to install Git, VSCode and Google Chrome as well as have a Github Account set up and with SSH Key on your current computer connected. See [How to Install](#how-to-install) for more information </small><br></br></span>_
+
+This poroject was about using the files provided and update the HTML and CSS to the match acceptance critera that can be found below. This project was also practing using markup to write Readme files.
+### Acceptance Criteria...
+|<span style="color:aquamarine;">**When:**</span>     |<span style="color:aquamarine;">**Then:**</span>                  |
+|-------------------------------------------------|--------------------------------------------------------------|
+| I view the source code                          | I find semantic HTML elements                                |
+| I view the structure of the HTML elements       | I find that the elements follow a logical structure independent of styling and positioning |
+| I view the image elements                       | I find accessible alt attributes                             |
+| I view the heading attributes                   | They fall in sequential order                                |
+| I view the title element                        | I find a concise, descriptive title                          |
 
 
-## General Styles
-<span style="color: grey;">These styles apply to all elements in the web page:</span>
+## How to Install
 
-- **box-sizing:** *border-box;: includes padding and border in element's total width and height*
-- **padding:** *0;: sets the padding of all elements to zero*
-- **margin:** *0;: sets the margin of all elements to zero*
-- **a:** *sets the color of all links to white and removes underline*
+- [Git](https://github.com/git-guides/install-git): "Git is a distributed version control system that tracks changes in any set of computer files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows." -Wiki
+- [SSH Key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account): "Ssh-keygen is a standard component of the Secure Shell protocol suite found on Unix, Unix-like and Microsoft Windows computer systems used to establish secure shell sessions between remote computers over insecure networks, through the use of various cryptographic techniques." -Wiki
+- [Github Account](https://docs.github.com/en/get-started/onboarding/getting-started-with-your-github-account): "With a GitHub account, you can import or create repositories, collaborate with others, and connect with the GitHub community. This guide will walk you through setting up your GitHub account and getting started with GitHub's features for collaboration and community." -Github
+- [VS Code](https://code.visualstudio.com/docs/setup/setup-overview): "Visual Studio Code, also commonly referred to as VS Code, is a source-code editor made by Microsoft with the Electron Framework, for Windows, Linux and macOS. Features include support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded Git." -Wiki
+- [Google Chrome](https://support.google.com/chrome/answer/95346?hl=en&co=GENIE.Platform%3DDesktop): "Google Chrome is a cross-platform web browser developed by Google. It was first released in 2008 for Microsoft Windows, built with free software components from Apple WebKit and Mozilla Firefox. Versions were later released for Linux, macOS, iOS, and also for Android, where it is the default browser." -Wiki
+--- 
+## How to Use the Project
+ 
+---
 
-## Header Styles
-<span style="color: grey;">These styles apply to the header section of the web page:</span>
+## Screenshots
+![Screenshot of Website](./assets/images/website-screenshot.jpeg)
 
-- **.header:** *sets the background color of the header to #2a607c and the font color to white*
-- **.header h1:** *sets the font size of the header title to 48px and displays it inline-block*
-- **.header h1 .seo:** *sets the color of the word SEO in the header title to #d9dcd6*
-- **.header div:** *styles the container for the links in the header*
-- **.header div ul:** *removes bullet points from the list of links*
-- **.header div ul li:** *displays the list items inline-block with a margin-left of 25px*
+---
 
-## Hero Section Styles
-<span style="color: grey;">These styles apply to the hero section of the web page:</span>
+## Links
+- [Peter Sharma's Deployed Site](https://peterksharma.github.io/mod-one-challange)
 
-- **.hero:** *sets the background image of the hero section to ../images/digital-marketing-meeting.jpg*
-- **.hero h2:** *sets the font size of text that is not a header to 16px*
-
-## Vertical Blocks Styles
-<span style="color: grey;">These styles apply to the three vertical blocks under the main picture:</span>
-
-- **.benefits:** *styles the container of the vertical blocks, sets it to float right, and sets the background color to #2589bd*
-- **.benefit-lead h3, .benefit-brand h3, .benefit-cost h3:** *sets the font size of the headers in the vertical blocks to 10px*
-- **.benefit-lead img, .benefit-brand img, .benefit-cost img:** *sets the max-width of the images in the vertical blocks to 150px*
-
-## Horizontal Blocks Styles
-<span style="color: grey;">These styles apply to the three horizontal blocks under the main pictre:</span>
-
-- **.search-engine-optimization, .online-reputation-management, .social-media-marketing:** *sets the background color of the horizontal blocks to #0072bb and the font color to white*
-- **.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2:** *sets the font size of the headers in the horizontal blocks to 36px*
-- **.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img:** *sets the max-height of the images in the horizontal blocks to 200px*
-
-## Content Styles
-<span style="color: grey;">These styles apply to the content section of the web page:</span>
-
-- **.content:** *styles the container of the content section and sets it to display inline-block*
-- **.float-left:** *sets the text in the left side of the content section to float left with a margin-right of 25px*
-- **.float-right:** *sets the text in the right side of the content section to float right with a margin-left of 25px*
-
-## Footer Styles
-<span style="color: grey;">These styles apply to the footer section of the web page:</span>
-
-- **.footer:** *styles the container of the footer section and sets it to display none to match the example photo*
-- **.footer h4:** *sets the font size of the footer title to 20px and sets it to display none to match the example photo*
+--- 
