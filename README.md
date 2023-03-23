@@ -31,7 +31,8 @@ This poroject was about using the files provided and update the HTML and CSS to 
 - [Google Chrome](https://support.google.com/chrome/answer/95346?hl=en&co=GENIE.Platform%3DDesktop): "Google Chrome is a cross-platform web browser developed by Google. It was first released in 2008 for Microsoft Windows, built with free software components from Apple WebKit and Mozilla Firefox. Versions were later released for Linux, macOS, iOS, and also for Android, where it is the default browser." -Wiki
 --- 
 ## How to Use the Project
- 
+
+I'm not quite sure how to fill this part out. Makes sense when I make a project I need to write how to use it but not when I'm editing something with criteria. Will try and re-review before final submission.  
 ---
 
 ## Screenshots
