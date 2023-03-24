@@ -33,6 +33,7 @@ This poroject was about using the files provided and update the HTML and CSS to 
 ## How to Use the Project
 
 I'm not quite sure how to fill this part out. Makes sense when I make a project I need to write how to use it but not when I'm editing something with criteria. Will try and re-review before final submission.  
+
 ---
 
 ## Screenshots
